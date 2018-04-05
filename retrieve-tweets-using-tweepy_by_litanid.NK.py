@@ -15,8 +15,8 @@ outputFile_name1 = ".js"  #输出文件扩展名
 outputFile_name = outputFile_name0 + outputFile_name1
 
 #转换成datetime类型
-beginday_datetime = datetime.strptime(beginday_datetime_string,'%Y-%m-%d %H:%M:%S')
-endday_datetime = datetime.strptime(endday_datetime_string,'%Y-%m-%d %H:%M:%S')
+beginday_datetime = datetime.strptime(beginday_datetime_string,'%Y%m%d %H:%M:%S')
+endday_datetime = datetime.strptime(endday_datetime_string,'%Y%m%d %H:%M:%S')
 
 #北京时间转换成格林尼治时间UTC
 beginday_datetime_beijing = beginday_datetime.replace(tzinfo=timezone(timedelta(hours=8))) #输入时间确定为北京时间

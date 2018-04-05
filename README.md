@@ -8,5 +8,5 @@ https://github.com/litanid/extract-tweets ），总是感觉不是那么可靠�
  retrieve-tweets-using-tweepy_by_litanid.NK.py 用 python3 编写，利用 tweepy 库连接 Twitter API 获取 tweets 。文件代码比较简单，一看即懂。
 
 运行此文件，需要提供初始日期和结束日期，如：
-`python3 retrieve-tweets-using-tweepy_by_litanid.NK.py 2018-01-01 2018-01-31`
-则将获取北京时间2018年1月1日00:00:00至2018年1月31日23:59:59之间的推文数据，生成 2018-01-01-2018-01-31.js 文件，可以使用 extract-tweets (https://github.com/litanid/extract-tweets) 中的 extract-tweets-to-md_by_litanid_after.py 进行处理输出为 Markdown 文件。
+`python3 retrieve-tweets-using-tweepy_by_litanid.NK.py 20180101 20180131`
+则将获取北京时间2018年1月1日00:00:00至2018年1月31日23:59:59之间的推文数据，生成 20180101-20180131.js 文件，可以使用 extract-tweets (https://github.com/litanid/extract-tweets) 中的 extract-tweets-to-md_by_litanid_after.py 进行处理输出为 Markdown 文件。
