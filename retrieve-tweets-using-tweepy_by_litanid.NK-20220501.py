@@ -38,10 +38,10 @@ endday_datetime_utc = endday_datetime_beijing.astimezone(timezone.utc) #转换�
 beginday_datetime_utc = beginday_datetime_utc.replace(tzinfo=None) #时间转换成为offset-naive才能进行比较
 endday_datetime_utc = endday_datetime_utc.replace(tzinfo=None) #时间转换成为offset-naive才能进行比较
 
-consumer_key = 'CBhcKweO0fvm8jrmHofcSiD8h'
-consumer_secret = 'zlaMpUbuoOkj3qNRfdwCRbFdHNijUr3JyrPzMJFQLNCo7hLCzG'
-access_token = '1448870624-TNRAMSgpyTLJi24T8VF5lLJnHxNEl5bBcAQOSZP'
-access_secret = 'xvsyCFg2D4hHf6yInW6E7CX2fyKhSdjItYp28RI2RufWB'
+consumer_key = 'CBhSiD8h'
+consumer_secret = 'zlUr3JyrPzMFQLNCo7hLCzG'
+access_token = '1448870LJibBcAQOSZP'
+access_secret = 'xvsyCFjItYp28RI2RufWB'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
